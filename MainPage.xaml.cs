@@ -1,4 +1,4 @@
-﻿using SchoolAp;
+﻿using SchoolAp.ViewModels;
 
 namespace SchoolAp;
 
@@ -9,6 +9,7 @@ public partial class MainPage : ContentPage
     public MainPage()
     {
         InitializeComponent();
+        BindingContext = new Person();
     }
 
     private void OnTapClicked(object sender, EventArgs e)
