@@ -33,6 +33,9 @@
         <Button Text="Открыть список студентов"
         Clicked="OnOpenStudentsClicked"
         HorizontalOptions="Center" />
+
+        <Button Text="Shout the name"
+        Clicked="OnShoutClicked" />
     </VerticalStackLayout>
 
 </ContentPage>
